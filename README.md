@@ -1,12 +1,9 @@
-Parfait ! Merci pour la clarification. Je vais te rédiger un **README unique et complet** pour ton atelier en tenant compte de tes précisions :
-
----
-
 # 🧱 ATELIER 1 : Mini Blockchain en C++ – From Scratch
 
 ## 🎓 Master 2 Intelligence Artificielle et Science des Données (IASD)
 
 **Étudiante :** Laakel Gauzi Soumaya
+
 **Année universitaire :** 2025 / 2026
 
 ---
@@ -58,6 +55,10 @@ Un **arbre de Merkle** est une structure arborescente utilisée pour vérifier l
 
 #### 🔹 Cas 1 : Vérification d’une transaction inchangée
 
+**Merkle Proof d'une transaction valide**
+
+![Diagramme Merkle Tree](images/image.png)
+
 ```
 Original Merkle Root: d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e9987594ab65d1e0
 
@@ -75,6 +76,11 @@ Original Merkle Root   : d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e998759
 ---
 
 #### 🔹 Cas 2 : Transaction modifiée
+
+**Merkle Proof d'une transaction invalide**
+
+![Diagramme Merkle Tree](images/photo2.png)
+![Diagramme Merkle Tree](images/photo3.png)
 
 ```
 Choose option: 2
