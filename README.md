@@ -59,19 +59,7 @@ Un **arbre de Merkle** est une structure arborescente utilisée pour vérifier l
 
 ![Diagramme Merkle Tree](images/image.png)
 
-```
-Original Merkle Root: d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e9987594ab65d1e0
-
-Choose option: 1
-Enter transaction number to verify (1-8): 3
-
-===== Result =====
-Calculated Merkle Root : d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e9987594ab65d1e0
-Original Merkle Root   : d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e9987594ab65d1e0
-✅ PROOF VALID: T3 is in the original tree.
-```
-
-➡️ La transaction T3 est intacte, le hachage est cohérent avec la racine initiale.
+➡️ La transaction T2 est intacte, le hachage est cohérent avec la racine initiale.
 
 ---
 
@@ -82,28 +70,13 @@ Original Merkle Root   : d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e998759
 ![Diagramme Merkle Tree](images/photo2.png)
 ![Diagramme Merkle Tree](images/photo3.png)
 
-```
-Choose option: 2
-Enter transaction number to modify (1-8): 4
-Current value: T4
-Enter new value: blockchain
 
-Choose option: 1
-Enter transaction number to verify (1-8): 4
-
-===== Result =====
-Calculated Merkle Root : 0c30c5f08219b748e871bb4c1b04e5b062be72f69d5dfee4126b95acde4b51c9
-Original Merkle Root   : d8240269a716f4371fa47ab3ce2fed8da7e68179f756a2b2e9987594ab65d1e0
-❌ PROOF INVALID: blockchain has been modified!
-```
 
 ➡️ La transaction T4 a été altérée, donc la racine calculée diffère de la racine originale.
 
 ---
 
 ### 🧩 **Résultat attendu**
-
-* Affichage de la **structure symbolique** de l’arbre.
 * Possibilité de **vérifier** une transaction.
 * Détection immédiate d’une **modification**.
 * Maintien de la racine originale pour assurer la **traçabilité**.
