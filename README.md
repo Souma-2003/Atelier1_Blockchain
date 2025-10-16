@@ -322,9 +322,7 @@ Index: 5 | Createur: val1 | Hash: 0_Genesis_hash_0_val1_hash_1_val3_hash_2_val3_
 
 ---
 
-Voici un **README complet** pour ton **Exercice 4 – Mini Blockchain from Scratch en C++**, prêt à copier-coller dans ton dossier de projet :
 
----
 
 # 🧱  Exercice 4 : Mini Blockchain from Scratch
 
